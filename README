@@ -1,0 +1,9 @@
+Step 1.
+
+modify ptt/scrapy.cfg
+
+Stop 2.
+crontab
+
+example:
+* * * * * cd /Users/yushi.chen/Dropbox/ptt_tool/ptt && /Library/Frameworks/Python.framework/Versions/3.6/bin/scrapy crawl ptt
